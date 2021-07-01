@@ -1,0 +1,53 @@
+.Login {
+}
+
+.Login > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form, .form-fields {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.form-fields {
+  width: 400px;
+}
+.form-input {
+  max-width: 100%;
+  margin: 10px;
+  width: 100%;
+}
+label {
+  display: block;
+  font-size: 22px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.login-btn {
+  background-color: #dbb0a0;
+  padding: 5px 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Baloo 2', cursive;
+  border-radius: 5px;
+}
+.login-btn:hover {
+  background-color: #ebc0b1;
+}
+.error {
+  font-family: 'Crimson Text', serif;
+  color: #db9d00;
+  font-weight: 600;
+}
+

@@ -1,0 +1,11 @@
+.PageHeader {
+  background-color: #068a9c;
+  color: #fff;
+  text-transform: uppercase;
+  height: 150px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+.Signup {
+  
+}
+.form-input-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+.form-input-name .form-input {
+  width: 45%;
+  margin: 0;
+}
+.signup-btn {
+  background-color: #eab586;
+  padding: 5px 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Baloo 2', cursive;
+  border-radius: 5px;
+}
+.signup-btn:hover {
+  background-color: #e9c09c;
+}
